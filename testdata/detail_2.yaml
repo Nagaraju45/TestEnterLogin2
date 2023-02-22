@@ -1,0 +1,11 @@
+---
+test1:
+  fr_nm: Surya
+  l_n: Kumar
+  email: sky123@gmail.com
+  job_title: Customer Service Manager
+  com_name: SKYIT
+  no_of_com_emp: 45
+  ph_no: 9876543210
+  com_country: New Zealand
+...

@@ -1,0 +1,12 @@
+{
+"test1": {
+  "fr_nm": "Rohit",
+  "l_n": "Sharma",
+  "email": "rohit123@gmail.com",
+  "job_title": "IT Manager",
+  "com_name": "Hello123",
+  "no_of_com_emp": "75",
+  "ph_no": 1234567890,
+  "com_country": "New Zealand"
+}
+}
