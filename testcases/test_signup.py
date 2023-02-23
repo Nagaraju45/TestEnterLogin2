@@ -19,7 +19,7 @@ class TestEnterDetails(softest.TestCase):
     # @file_data("../testdata/details.json")
     # @file_data("../testdata/detail_2.yaml")
     # @data(*Utils.read_data_from_excel("D:\\Book1excel.xlsx", "Sheet2"))
-    @data(*Utils.read_data_from_csv("C:\\Users\\nagar\\PycharmProjects\\testEnterLogin\\testdata\\user_details2.csv"))
+    @data(*Utils.read_data_from_csv("C:\\Users\\nagar\\PycharmProjects\\testEnterLogin2\\testdata\\user_details2.csv"))
     @unpack
     def test_enter_fields(self, fr_nm, l_n, email, job_title, com_name, no_of_com_emp, ph_no, com_country):
         user_details = self.llp.enter_data_to_fields(fr_nm, l_n, email, job_title, com_name, no_of_com_emp, ph_no,
